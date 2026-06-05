@@ -14,7 +14,7 @@ import {
 
 const openai = new OpenAI({
   baseURL: "https://api.generalcompute.com",
-  apiKey: process.env.GENERAL_COMPUTE_API_KEY!,
+  apiKey: process.env.OPENAI_API_KEY!,
 });
 
 // Prevent duplicate requests from same session
